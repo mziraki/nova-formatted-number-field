@@ -25,7 +25,6 @@
                 allowMinus: false,
                 allowPlus: false,
                 autoGroup: true,
-                clearMaskOnLostFocus: true,
                 groupSeparator: ',',
                 max: this.field.max,
                 min: this.field.min,
