@@ -25,10 +25,10 @@
                 allowMinus: false,
                 allowPlus: false,
                 autoGroup: true,
+                clearMaskOnLostFocus: true,
                 groupSeparator: ',',
                 max: this.field.max,
                 min: this.field.min,
-                removeMaskOnSubmit: true,
                 rightAlign: false,
                 step: this.field.step,
             }).mask(document.getElementById(this.field.attribute))
